@@ -1,0 +1,280 @@
+.banner {
+    height: 10px;
+    background-color: #9c1010;
+}
+.top {
+    display: flex;
+    height: 100px;
+
+}
+.left-blank {
+    height: 100%;
+    width: 15%;
+}
+.middle-top {
+    height: 100%;
+    width: 70%;
+    display: flex;
+}
+.right-blank {
+    height: 100%;
+    width: 15%;
+}
+.item1 {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction:row;
+}
+.item1 > img {
+    margin: 5px;
+}
+.item1 > div {
+    font-size: 14px;
+}
+.title {
+    padding-top: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.title-eng {
+    padding-bottom: 30px;
+}
+.item2 {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.lang {
+    height: 45%;
+}
+.lang > div {
+    font-size: 15px;
+    padding-top: 7%;
+    padding-left: 41%;
+}
+.search {
+    height: 55%;
+}
+.search > div {
+    padding-top: 5%;
+    padding-left: 30%;
+}
+
+.item3 {
+    height: 100%;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+.info1 {
+    height:  33%;
+    display: flex;
+}
+.info1des {
+    font-size: 13px;
+    padding-left: 14px;
+    padding-top: 4px;
+}
+.info1 > img {
+    height: 100%;
+    padding-top: 2px;
+}
+.info2 {
+
+    height:  34%;
+    display: flex;
+}
+.info2des {
+    font-size: 13px;
+    padding-left: 10px;
+    padding-top: 6px;
+}
+.info2 > img {
+    height: 80%;
+    padding-top: 6px;
+}
+.info3 {
+ 
+    height:  33%;
+    display: flex;
+}
+.info3des {
+    font-size: 13px;
+    padding-left: 10px;
+    padding-top: 12px;
+}
+.info3 > img {
+    height: 90%;
+    padding-top: 6px;
+}
+.menu {
+    height: 30px;
+    display: flex;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.nav {
+    height: 100%;
+    border: 1px solid;
+    width: 70%;
+    background-color:#4e4e4e;
+    display: flex;
+}
+.nav > div {
+    font-size: 60%;
+    color: white;
+}
+
+.cate {
+    height: 100%; 
+    width: 5%;
+    display: flex;
+    padding-left: 2px;
+}
+.cate1 {
+    height: 100%;
+    display: flex;
+    width: 10%;
+    padding-top: 7px;
+    padding-left: 7px;
+}
+
+.cate2 {
+    height: 100%;
+    display: flex;
+    width: 16%;
+    padding-top: 7px;
+    padding-left: 7px;
+}
+.cate3 {
+    height: 100%;
+    display: flex;
+    width: 10.5%;
+    padding-top: 7px;
+    padding-left: 7px;
+}
+.cate4 {
+    height: 100%;
+    display: flex;
+    width: 8%;
+    padding-top: 7px;
+    padding-left: 5px;
+}
+.cate5 {
+    height: 100%;
+    display: flex;
+    width: 9%;
+    padding-top: 7px;
+    padding-left: 5px;
+}
+.cate6 {
+    height: 100%;
+    display: flex;
+    width: 11%;
+    padding-top: 7px;
+    padding-left: 3px;
+}
+.cate7 {
+    height: 100%;
+    display: flex;
+    width: 18%;
+    padding-top: 7px;
+    padding-left: 6px;
+}
+.cate8 {
+    height: 100%;
+    display: flex;
+    width: 7%;
+    padding-top: 7px;
+    padding-left: 3px;
+}
+section {
+    display:flex;
+    height:1000px;
+}
+.content {
+    display: flex;
+    height: 100%;
+    width: 70%;
+    flex-direction: column;
+}
+.cateName {
+    display: flex;
+    height: 50px;
+    width: 100%;
+}
+.cateName > h {
+    padding: 10px;
+    font-size: 20px;
+
+}
+.cate-list {
+    display: flex;
+    height: 100%;
+    width: 25%;
+    flex-direction: column;
+    border-top: 1px solid grey;
+}
+.lists {
+    display: flex;
+    height: 100%;
+    width: 85%;
+    align-self: flex-end;
+    flex-direction: column;
+}
+.lists > div {
+    font-size: 15px;
+    padding-top: 14px;
+}
+.main-content {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+.blank {
+    display: flex;
+    height: 100%;
+    width: 2%;
+}
+.true-content {
+    display:flex;
+    height: 100%;
+    width: 73%;
+    flex-direction: column;
+}
+.img {
+    display: flex;
+    height: 30%;
+    width: 101%;
+}
+.img > img {
+    align-self: flex-end;
+}
+.para {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    font-size: 13.0pt
+}
+.word {
+    height: 100%;
+    display: flex;
+    width: 70%;
+ 
+}
+.numbers {
+    height: 100%;
+    display: flex;
+    width: 30%;
+    
+}
+footer {
+    background-color: #9c1010; height: 300px; display: flex;
+}
